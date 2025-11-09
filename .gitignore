@@ -1,2 +1,18 @@
+# Build output directories
+target/
+bin/
+build/
 
-/target/
+# Eclipse specific files
+.settings/
+.project
+.classpath
+
+# IDE files
+.idea/
+*.iml
+*.iws
+
+# Temporary files
+tmp/
+temp/
