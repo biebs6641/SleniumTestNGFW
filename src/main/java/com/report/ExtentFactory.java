@@ -28,7 +28,7 @@ public class ExtentFactory {
 	public static ExtentFactory getInstance() {
 		return instance;
 	}
-
+	
 	public void setExtent(ExtentTest obj) {
 		extent.set(obj);
 	}
