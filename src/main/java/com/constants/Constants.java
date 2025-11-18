@@ -8,6 +8,10 @@ public abstract class Constants {
 	
 	public static final int EXPLICIT_WAIT = 20; 
 	
+	public static final String CONFIG_FILE_PATH = CURRENT_DIR+"/src/test/resources/execution/config.properties"; 
+	
+	public static  String ENVIRONMENT;
+	
 	
 	
 }
