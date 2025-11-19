@@ -11,6 +11,10 @@ public abstract class Constants {
 	public static final String CONFIG_FILE_PATH = CURRENT_DIR+"/src/test/resources/execution/config.properties"; 
 	
 	public static  String ENVIRONMENT;
+	public static final String TEST_ENV_DATA_FILE = CURRENT_DIR + "/src/test/resources/TestData/test_data.properties";
+	public static final String PROD_ENV_DATA_FILE= CURRENT_DIR + "/src/test/resources/TestData/prod_data.properties";
+	
+	public static final int IMPLICIT_WAIT = 20;
 	
 	
 	
