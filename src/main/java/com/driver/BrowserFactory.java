@@ -10,7 +10,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BrowserFactory {
 
-	public WebDriver createBrowserInstance(String browserame) {
+	public static WebDriver createBrowserInstance(String browserame) {
 		WebDriver driver = null;
 
 		if (browserame.equalsIgnoreCase("Chrome")) {
