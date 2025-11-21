@@ -1,6 +1,7 @@
 # Build output directories
 target/
 bin/
+target-output/
 build/
 
 # Eclipse specific files
@@ -16,3 +17,8 @@ build/
 # Temporary files
 tmp/
 temp/
+
+*.class
+reports/
+test-output/
+
